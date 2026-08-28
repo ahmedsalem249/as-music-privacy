@@ -1,0 +1,401 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AS MUSIC - Privacy Policy</title>
+
+    <meta name="description"
+          content="Privacy Policy for AS MUSIC Discord Music Bot">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #0f1117;
+            color: #e8eaf0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 32px));
+            margin: 50px auto;
+        }
+
+        .card {
+            background: #171a23;
+            border: 1px solid #292e3b;
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 12px 40px rgba(0,0,0,.25);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-top: 34px;
+            font-size: 23px;
+        }
+
+        p,
+        li {
+            color: #b9bfcc;
+        }
+
+        strong {
+            color: #f1f3f7;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: #242938;
+            color: #cdd3df;
+            font-size: 13px;
+            margin-bottom: 18px;
+        }
+
+        .notice {
+            background: #1d2230;
+            border-left: 4px solid #7289da;
+            padding: 16px 18px;
+            border-radius: 8px;
+            margin: 24px 0;
+        }
+
+        code {
+            background: #242938;
+            padding: 2px 6px;
+            border-radius: 5px;
+            color: #e8eaf0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 24px;
+            color: #777f91;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            .card {
+                padding: 24px;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="container">
+
+    <section class="card">
+
+        <span class="badge">
+            AS MUSIC • Privacy Policy
+        </span>
+
+        <h1>Privacy Policy</h1>
+
+        <p>
+            <strong>Last updated:</strong>
+            August 28, 2026
+        </p>
+
+        <p>
+            This Privacy Policy explains how
+            <strong>AS MUSIC</strong>, a Discord music bot,
+            handles information when you use the bot or
+            interact with its commands and features.
+        </p>
+
+        <div class="notice">
+
+            <strong>Short version:</strong>
+
+            AS MUSIC does not currently use a permanent
+            database to store user information.
+
+            Temporary information required for music
+            playback and bot functionality is kept in
+            memory while the bot is running and is
+            normally lost when the bot restarts.
+
+        </div>
+
+
+        <h2>1. Information We Process</h2>
+
+        <p>
+            When you use AS MUSIC, Discord may provide
+            the bot with information required for normal
+            Discord functionality, including:
+        </p>
+
+        <ul>
+
+            <li>
+                Discord user ID and username associated
+                with an interaction.
+            </li>
+
+            <li>
+                Discord server (guild) ID.
+            </li>
+
+            <li>
+                Voice channel information required to
+                join and control music playback.
+            </li>
+
+            <li>
+                Text channel information required to
+                send or update the music panel.
+            </li>
+
+            <li>
+                Commands, button interactions, and
+                search queries sent to the bot.
+            </li>
+
+        </ul>
+
+        <p>
+            AS MUSIC does not intentionally request or
+            store private Discord messages, passwords,
+            payment information, or other unrelated
+            personal information.
+        </p>
+
+
+        <h2>2. Temporary In-Memory Data</h2>
+
+        <p>
+            AS MUSIC temporarily keeps certain information
+            in server memory while it is running.
+        </p>
+
+        <p>
+            This may include music player state,
+            queues, playback settings, panel message
+            and channel references, and temporary
+            search results.
+        </p>
+
+        <p>
+            These temporary values are not stored in a
+            permanent database by the current version
+            of AS MUSIC and are generally removed when
+            the bot process restarts.
+        </p>
+
+
+        <h2>3. Favorites</h2>
+
+        <p>
+            The Favorite feature temporarily stores
+            track identifiers in memory for the relevant
+            Discord server while the bot is running.
+        </p>
+
+        <p>
+            Favorites are not currently persisted to a
+            permanent database.
+        </p>
+
+
+        <h2>4. Third-Party Services</h2>
+
+        <p>
+            AS MUSIC interacts with third-party services
+            to provide music-related functionality.
+        </p>
+
+        <p>
+            Depending on the command and URL used,
+            information such as search queries,
+            track names, or public media URLs may be
+            processed through these services.
+        </p>
+
+        <ul>
+
+            <li>
+                <strong>Discord:</strong>
+                Used to provide the bot platform and
+                receive user interactions.
+            </li>
+
+            <li>
+                <strong>Lavalink:</strong>
+                Used for music player and audio
+                streaming functionality.
+            </li>
+
+            <li>
+                <strong>SoundCloud:</strong>
+                Used as the primary music search/source
+                platform.
+            </li>
+
+            <li>
+                <strong>Spotify:</strong>
+                Used for metadata when Spotify credentials
+                and Spotify URLs are used.
+            </li>
+
+            <li>
+                <strong>YouTube:</strong>
+                Used for public video and playlist
+                metadata when YouTube URLs are used.
+            </li>
+
+        </ul>
+
+        <p>
+            These third-party services have their own
+            privacy policies and terms. AS MUSIC does
+            not control how those services independently
+            process information.
+        </p>
+
+
+        <h2>5. Search and Music URLs</h2>
+
+        <p>
+            If you use <code>/play</code> or
+            <code>/search</code>, the bot processes the
+            query you provide to find music.
+        </p>
+
+        <p>
+            Public URLs from supported platforms may
+            also be processed to identify tracks or
+            metadata.
+        </p>
+
+        <p>
+            Search results are temporarily cached in
+            memory to allow you to select a result.
+            The current implementation automatically
+            removes these cached search results after
+            a short period.
+        </p>
+
+
+        <h2>6. Data Retention</h2>
+
+        <p>
+            AS MUSIC does not currently maintain a
+            permanent user database.
+        </p>
+
+        <p>
+            Temporary runtime information is retained
+            only as long as necessary for the bot's
+            current operation and is normally lost when
+            the bot restarts.
+        </p>
+
+
+        <h2>7. Data Security</h2>
+
+        <p>
+            Reasonable measures are used to avoid
+            unnecessary collection and permanent
+            storage of user information.
+        </p>
+
+        <p>
+            However, no online service can guarantee
+            absolute security.
+        </p>
+
+
+        <h2>8. Children's Privacy</h2>
+
+        <p>
+            AS MUSIC is a Discord application and does
+            not intentionally collect personal
+            information from children.
+        </p>
+
+        <p>
+            Users should comply with Discord's age
+            requirements and applicable laws when using
+            Discord and its applications.
+        </p>
+
+
+        <h2>9. Your Choices and Data Requests</h2>
+
+        <p>
+            If you have a question about information
+            handled by AS MUSIC, or if you believe
+            information associated with you needs to be
+            removed, you may contact the bot owner
+            through the Discord account or server where
+            AS MUSIC is provided.
+        </p>
+
+
+        <h2>10. Changes to This Policy</h2>
+
+        <p>
+            This Privacy Policy may be updated if
+            AS MUSIC's functionality, data handling,
+            or third-party integrations change.
+        </p>
+
+        <p>
+            The latest version will be published on
+            this page.
+        </p>
+
+
+        <h2>11. Contact</h2>
+
+        <p>
+            For privacy-related questions concerning
+            AS MUSIC, contact the AS MUSIC bot owner
+            through Discord.
+        </p>
+
+
+        <h2>12. Acceptance</h2>
+
+        <p>
+            By using AS MUSIC, you acknowledge that you
+            have read and understood this Privacy Policy.
+        </p>
+
+    </section>
+
+
+    <footer>
+        © 2026 AS MUSIC. All rights reserved.
+    </footer>
+
+</main>
+
+</body>
+</html>
+```
